@@ -52,13 +52,13 @@ This frontend is the blueprint for the next phases of the project:
 
 This repository contains the static frontend files for the project:
 
-- `index.html` — Home page 
-- `products.html` — Products listing
-- `product-detail.html` — Product details (loads product via ?id=...)
-- `cart.html` — Shopping cart
-- `login.html`, `signup.html` — Authentication pages (UI only)
-- `style.css` — Styles
-- `script.js` — Product data, cart logic, and page scripts
+- `index.html` - Home page 
+- `products.html` - Products listing
+- `product-detail.html` - Product details (loads product via ?id=...)
+- `cart.html` - Shopping cart
+- `login.html`, `signup.html` - Authentication pages (UI only)
+- `style.css` - Styles
+- `script.js` - Product data, cart logic, and page scripts
 
 ## How to use locally
 
