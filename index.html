@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyora - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="container">
+            <a href="index.html" class="brand-logo">Buyora</a>
+            <div class="search-group">
+                <input type="text" placeholder="Search for products...">
+                <button class="btn icon-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html" class="cart-link">
+                        Cart
+                        <span id="cart-badge" class="cart-badge">0</span>
+                    </a></li>
+                <li><a href="login.html" class="btn btn-outline">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <div class="slider-wrapper">
+                <div class="slider-track" id="hero-slider-track">
+                    <a href="products.html" class="slide">
+                        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=1600&h=500&fit=crop"
+                            alt="Clothing rack">
+                    </a>
+                    <a href="products.html" class="slide">
+                        <img src="https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?w=1600&h=500&fit=crop"
+                            alt="Clothing store interior">
+                    </a>
+                    <a href="products.html" class="slide">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&h=500&fit=crop"
+                            alt="Round white watch">
+                    </a>
+                    <a href="products.html" class="slide">
+                        <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1600&h=500&fit=crop"
+                            alt="Jewelry rings">
+                    </a>
+                    <a href="products.html" class="slide">
+                        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=1600&h=500&fit=crop"
+                            alt="Clothing rack">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container page-wrapper">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="item-grid">
+
+                <div class="item-card">
+                    <a href="product-detail.html?id=1">
+                        <img src="https://images.pexels.com/photos/3394663/pexels-photo-3394663.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                            alt="wireless headphone">
+
+                    </a>
+                    <div class="item-body">
+                        <h3 class="item-title">Wireless Headphones</h3>
+                        <p class="item-price">₹12,499</p>
+                        <p class="item-desc">High-fidelity sound, 24-hour battery.</p>
+                        <button class="btn btn-main add-cart-btn" data-id="1" data-name="Wireless Headphones"
+                            data-price="12499"
+                            data-image="https://images.pexels.com/photos/3394663/pexels-photo-3394663.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <a href="product-detail.html?id=2">
+                        <img src="https://images.pexels.com/photos/440320/pexels-photo-440320.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                            alt="black apple watch">
+
+                    </a>
+                    <div class="item-body">
+                        <h3 class="item-title">Smart Watch</h3>
+                        <p class="item-price">₹14,999</p>
+                        <p class="item-desc">Track your fitness, stay connected.</p>
+                        <button class="btn btn-main add-cart-btn" data-id="2" data-name="Smart Watch" data-price="14999"
+                            data-image="https://images.pexels.com/photos/440320/pexels-photo-440320.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <a href="product-detail.html?id=3">
+                        <img src="https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                            alt="Running Shoes" class="item-image">
+                    </a>
+                    <div class="item-body">
+                        <br>
+                        <h3 class="item-title">Running Shoes</h3>
+                        <p class="item-price">₹4,599</p>
+                        <p class="item-desc">Lightweight and comfortable.</p>
+                        <button class="btn btn-main add-cart-btn" data-id="3" data-name="Running Shoes"
+                            data-price="4599"
+                            data-image="https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <a href="product-detail.html?id=4">
+                        <img src="https://images.pexels.com/photos/1436310/pexels-photo-1436310.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop "
+                            alt="Coffee Maker" class="item-image">
+                    </a>
+                    <div class="item-body">
+                        <h3 class="item-title">Coffee Maker</h3>
+                        <p class="item-price">₹2,999</p>
+                        <p class="item-desc">Brew the perfect cup every time.</p>
+                        <button class="btn btn-main add-cart-btn" data-id="4" data-name="Coffee Maker" data-price="2999"
+                            data-image="https://images.pexels.com/photos/1436310/pexels-photo-1436310.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h4 class="footer-title">Buyora</h4>
+                <p>Your one-stop shop for everything you need. Quality products, unbeatable prices.</p>
+            </div>
+            <div>
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Contact Us</h4>
+                <p>Hyderabad, India</p>
+                <p>Email: support@buyora.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-alert" class="toast-alert">
+        Item added to cart!
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyora - Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="page-product-detail">
+
+    <header class="site-header">
+        <nav class="container">
+            <a href="index.html" class="brand-logo">Buyora</a>
+            <div class="search-group">
+                <input type="text" placeholder="Search for products...">
+                <button class="btn icon-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html" class="cart-link">
+                        Cart
+                        <span id="cart-badge" class="cart-badge">0</span>
+                    </a></li>
+                <li><a href="login.html" class="btn btn-outline">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-wrapper">
+        <div class="detail-layout">
+            <div class="detail-image-wrapper">
+                <img src="https://images.pexels.com/photos/3394663/pexels-photo-3394663.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                    alt="Product Image" class="detail-image" id="detail-image">
+            </div>
+            <div class="detail-info">
+                <h2 class="detail-title" id="detail-title">Product Name</h2>
+                <p class="detail-price" id="detail-price">₹0.00</p>
+                <p class="detail-desc" id="detail-desc">
+                    Product description loading...
+                </p>
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" value="1" min="1" class="form-input" style="width: 80px;">
+                </div>
+                <button class="btn btn-main btn-large add-cart-btn" id="detail-add-btn" data-id="0" data-name="Loading"
+                    data-price="0" data-image="">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h4 class="footer-title">Buyora</h4>
+                <p>Your one-stop shop for everything you need. Quality products, unbeatable prices.</p>
+            </div>
+            <div>
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Contact Us</h4>
+                <p>Hyderabad, India</p>
+                <p>Email: support@buyora.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-alert" class="toast-alert">
+        Item added to cart!
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
+
