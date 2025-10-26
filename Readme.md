@@ -1,6 +1,6 @@
 # Buyora: E-Commerce Platform (Frontend)
 
-This project is the foundational frontend for "Buyora," an online marketplace. It serves as the first phase of a progressive full-stack web development project, built purely with HTML, CSS, and vanilla JavaScript.
+This project is the foundational frontend for "Buyora," an online marketplace. It serves as the first phase of a progressive full-stack web development project, built purely with HTML, CSS, and JavaScript.
 
 ## Concept
 
